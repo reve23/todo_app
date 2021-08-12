@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./images/img2.jpg');
+  background-image: url("./images/img2.jpg");
 }
 
 code {
@@ -43,12 +43,36 @@ code {
   width: 30rem;
   position: relative;
   left: 36%;
-  background-color: rgb(101, 55, 211);
+  background-color: rgb(197, 100, 129);
 }
-.eachitems:hover{
+.eachitems:hover {
   background-color: #f9f9f9;
 }
-.eachitems button{
+.eachitems button {
   background-color: red;
   padding: 10px;
+}
+@media screen and (max-width: 720px) {
+  .eachitems {
+    background-color: rgb(197, 100, 129);
+    left: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .eachitems {
+    background-color: rgb(197, 100, 129);
+    left: 5%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .eachitems {
+    background-color: white;
+    left: 35%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .eachitems {
+    background-color: rgb(197, 100, 129);
+    left: 24%;
+  }
 }
